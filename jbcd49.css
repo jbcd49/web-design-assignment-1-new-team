@@ -4,6 +4,7 @@
      */
 
 body {
+    clear: both;
     background-color: lightgray;
     margin: 0px;
 }
@@ -11,6 +12,7 @@ body {
 header {
     background-color: rgb(196, 30, 58);
     border-bottom: 5px solid rgb(254, 219, 0);
+    overflow: auto;
 }
 
 header h1 {
@@ -18,15 +20,131 @@ header h1 {
     color: white;
 }
 
+#header_logo {
+    float: left;
+    margin: 10px;
+}
+
+#header_teamname {
+    float: left;
+    padding: 20px;
+}
+
 nav {
     background-color: rgb(12, 35, 64);
     color: white;
+    padding: 0px;
+    overflow: auto;
+}
+
+.nav_internal:hover {
+    background-color:rgb(196, 30, 58);
+}
+
+.nav_external:hover {
+    background-color: gray;
+}
+
+.nav_internal {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.nav_external {
+    position: absolute;
+    right: 0px;
+    color: white;
+    overflow: auto;
+}
+
+#nav_select {
+    margin: 12px 10px;
+    vertical-align: center;
+    padding: 5px;
+}
+
+#nav_label {
+    float: left;
+    padding-left: 10px;
+}
+
+.article_header {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: gray;
+
+}
+
+
+.article_header h2 {
+    padding: 5px;
+}
+
+.article_content {
+    width: 100%;
     padding: 10px;
+    overflow: auto;
 }
 
 article {
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 7px 7px darkgray;
     background-color: white;
     color: black;
 }
+
+.standings_table tr:nth-child(odd) {
+    background: lightgray;
+}
+
+.standings_table tr:first-child {
+    font-weight: bold;
+    background: darkgray;
+}
+
+.standings_table {
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    text-align: center;
+}
+
+.standings_table th {
+    width: 100px;
+    height: 25px;
+}
+
+.standings_table td {
+    width: 100px;
+    height: 20px;
+}
+
+#al_label {
+    clear: both;
+}
+
+.depth_list {
+    float: left;
+    height: 160px;
+}
+
+.depth_table_item {
+    padding-top: 5px;
+}
+
+.depth_item_name {
+    width: 160px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.depth_item_number {
+    width: 30px;
+    height: 20px;
+    vertical-align: sub;
+}
+
