@@ -5,7 +5,6 @@
 
 body {
     clear: both;
-    background-color: lightgray;
     margin: 0px;
 }
 
@@ -70,6 +69,21 @@ nav {
     padding-left: 10px;
 }
 
+#background {
+    background-image: url(resource/stadium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foreground {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: lightgray;
+    box-shadow: -7px 0px 15px black, 7px 0px 15px black;
+}
+
 .article_header {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
@@ -80,6 +94,8 @@ nav {
 
 .article_header h2 {
     padding: 5px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 .article_content {
@@ -91,7 +107,7 @@ nav {
 article {
     margin: 15px;
     border-radius: 5px;
-    box-shadow: 7px 7px darkgray;
+    box-shadow: 7px 7px 4px darkgray;
     background-color: white;
     color: black;
 }
