@@ -42,286 +42,423 @@
                     <!--Standings as of 9/24-->
                     <div class="article_header"><h2>Standings</h2></div>
                     <div class="article_content">
-                        <h3>National League</h3>
-                        <table class="standings_table" id="NL_Central">
-                            <tr>
-                                <th>NL Central</th>
-                                <th>Wins</th>
-                                <th>Losses</th>
-                                <th>Win %</th>
-                                <th>Games Back</th>
-                            </tr>
-                            <tr>
-                                <td>Cardinals</td>
-                                <td>90</td>
-                                <td>67</td>
-                                <td>.573</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>Brewers</td>
-                                <td>87</td>
-                                <td>70</td>
-                                <td>.554</td>
-                                <td>3.0</td>
-                            </tr>
-                            <tr>
-                                <td>Cubs</td>
-                                <td>82</td>
-                                <td>75</td>
-                                <td>.522</td>
-                                <td>8.0</td>
-                            </tr>
-                            <tr>
-                                <td>Reds</td>
-                                <td>73</td>
-                                <td>84</td>
-                                <td>.465</td>
-                                <td>17.0</td>
-                            </tr>
-                            <tr>
-                                <td>Pirates</td>
-                                <td>66</td>
-                                <td>91</td>
-                                <td>.420</td>
-                                <td>24.0</td>
-                            </tr>
-                        </table>
-                        <table class="standings_table" id="NL_East">
+                        <div id="charts">
+                            <h3 id="nl_label">National League</h3>
+                            <table class="standings_table" id="NL_Central">
                                 <tr>
-                                    <th>NL East</th>
+                                    <th>NL Central</th>
                                     <th>Wins</th>
                                     <th>Losses</th>
                                     <th>Win %</th>
                                     <th>Games Back</th>
                                 </tr>
                                 <tr>
-                                    <td>Braves</td>
-                                    <td>96</td>
-                                    <td>61</td>
-                                    <td>.611</td>
+                                    <td>Cardinals</td>
+                                    <td>90</td>
+                                    <td>67</td>
+                                    <td>.573</td>
                                     <td>-</td>
                                 </tr>
                                 <tr>
-                                    <td>Nationals</td>
-                                    <td>88</td>
-                                    <td>69</td>
-                                    <td>.561</td>
-                                    <td>8.0</td>
+                                    <td>Brewers</td>
+                                    <td>87</td>
+                                    <td>70</td>
+                                    <td>.554</td>
+                                    <td>3.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Mets</td>
+                                    <td>Cubs</td>
                                     <td>82</td>
                                     <td>75</td>
                                     <td>.522</td>
-                                    <td>14.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Phillies</td>
-                                    <td>79</td>
-                                    <td>78</td>
-                                    <td>.503</td>
-                                    <td>17.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Marlins</td>
-                                    <td>55</td>
-                                    <td>102</td>
-                                    <td>.350</td>
-                                    <td>41.0</td>
-                                </tr>
-                        </table>
-                        <table class="standings_table" id="NL_West">
-                                <tr>
-                                    <th>NL West</th>
-                                    <th>Wins</th>
-                                    <th>Losses</th>
-                                    <th>Win %</th>
-                                    <th>Games Back</th>
-                                </tr>
-                                <tr>
-                                    <td>Dodgers</td>
-                                    <td>100</td>
-                                    <td>56</td>
-                                    <td>.641</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>D-backs</td>
-                                    <td>80</td>
-                                    <td>77</td>
-                                    <td>.510</td>
-                                    <td>20.5</td>
-                                </tr>
-                                <tr>
-                                    <td>Giants</td>
-                                    <td>75</td>
-                                    <td>81</td>
-                                    <td>.481</td>
-                                    <td>25.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Padres</td>
-                                    <td>70</td>
-                                    <td>86</td>
-                                    <td>.449</td>
-                                    <td>30.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Rockies</td>
-                                    <td>67</td>
-                                    <td>89</td>
-                                    <td>.429</td>
-                                    <td>33.0</td>
-                                </tr>
-                        </table>
-
-                        <h3 id="al_label">American League</h3>
-                        <table class="standings_table" id="AL_Central">
-                            <tr>
-                                <th>AL Central</th>
-                                <th>Wins</th>
-                                <th>Losses</th>
-                                <th>Win %</th>
-                                <th>Games Back</th>
-                            </tr>
-                            <tr>
-                                <td>Twins</td>
-                                <td>97</td>
-                                <td>60</td>
-                                <td>.618</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>Indians</td>
-                                <td>92</td>
-                                <td>64</td>
-                                <td>.590</td>
-                                <td>4.5</td>
-                            </tr>
-                            <tr>
-                                <td>White Sox</td>
-                                <td>68</td>
-                                <td>87</td>
-                                <td>.439</td>
-                                <td>28.0</td>
-                            </tr>
-                            <tr>
-                                <td>Royals</td>
-                                <td>57</td>
-                                <td>100</td>
-                                <td>.363</td>
-                                <td>40.0</td>
-                            </tr>
-                            <tr>
-                                <td>Tigers</td>
-                                <td>46</td>
-                                <td>110</td>
-                                <td>.295</td>
-                                <td>50.5</td>
-                            </tr>
-                        </table>
-                        <table class="standings_table" id="AL_East">
-                                <tr>
-                                    <th>AL East</th>
-                                    <th>Wins</th>
-                                    <th>Losses</th>
-                                    <th>Win %</th>
-                                    <th>Games Back</th>
-                                </tr>
-                                <tr>
-                                    <td>Yankees</td>
-                                    <td>102</td>
-                                    <td>56</td>
-                                    <td>.646</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Rays</td>
-                                    <td>94</td>
-                                    <td>64</td>
-                                    <td>.595</td>
                                     <td>8.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Red Sox</td>
-                                    <td>81</td>
-                                    <td>75</td>
-                                    <td>.519</td>
-                                    <td>20.0</td>
+                                    <td>Reds</td>
+                                    <td>73</td>
+                                    <td>84</td>
+                                    <td>.465</td>
+                                    <td>17.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Blue Jays</td>
-                                    <td>64</td>
-                                    <td>94</td>
-                                    <td>.405</td>
-                                    <td>38.0</td>
+                                    <td>Pirates</td>
+                                    <td>66</td>
+                                    <td>91</td>
+                                    <td>.420</td>
+                                    <td>24.0</td>
                                 </tr>
-                                <tr>
-                                    <td>Orioles</td>
-                                    <td>52</td>
-                                    <td>106</td>
-                                    <td>.329</td>
-                                    <td>50.0</td>
-                                </tr>
-                        </table>
-                        <table class="standings_table" id="AL_West">
+                            </table>
+                            <table class="standings_table" id="NL_East">
                                     <tr>
-                                        <th>AL West</th>
+                                        <th>NL East</th>
                                         <th>Wins</th>
                                         <th>Losses</th>
                                         <th>Win %</th>
                                         <th>Games Back</th>
                                     </tr>
                                     <tr>
-                                        <td>Astros</td>
-                                        <td>102</td>
-                                        <td>54</td>
-                                        <td>.654</td>
+                                        <td>Braves</td>
+                                        <td>96</td>
+                                        <td>61</td>
+                                        <td>.611</td>
                                         <td>-</td>
                                     </tr>
                                     <tr>
-                                        <td>Athletics</td>
-                                        <td>94</td>
-                                        <td>62</td>
-                                        <td>.603</td>
+                                        <td>Nationals</td>
+                                        <td>88</td>
+                                        <td>69</td>
+                                        <td>.561</td>
                                         <td>8.0</td>
                                     </tr>
                                     <tr>
-                                        <td>Rangers</td>
+                                        <td>Mets</td>
+                                        <td>82</td>
+                                        <td>75</td>
+                                        <td>.522</td>
+                                        <td>14.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phillies</td>
+                                        <td>79</td>
+                                        <td>78</td>
+                                        <td>.503</td>
+                                        <td>17.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marlins</td>
+                                        <td>55</td>
+                                        <td>102</td>
+                                        <td>.350</td>
+                                        <td>41.0</td>
+                                    </tr>
+                            </table>
+                            <table class="standings_table" id="NL_West">
+                                    <tr>
+                                        <th>NL West</th>
+                                        <th>Wins</th>
+                                        <th>Losses</th>
+                                        <th>Win %</th>
+                                        <th>Games Back</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Dodgers</td>
+                                        <td>100</td>
+                                        <td>56</td>
+                                        <td>.641</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>D-backs</td>
+                                        <td>80</td>
+                                        <td>77</td>
+                                        <td>.510</td>
+                                        <td>20.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Giants</td>
                                         <td>75</td>
                                         <td>81</td>
                                         <td>.481</td>
-                                        <td>27.0</td>
+                                        <td>25.0</td>
                                     </tr>
                                     <tr>
-                                        <td>Angels</td>
+                                        <td>Padres</td>
                                         <td>70</td>
                                         <td>86</td>
                                         <td>.449</td>
-                                        <td>32.0</td>
+                                        <td>30.0</td>
                                     </tr>
                                     <tr>
-                                        <td>Mariners</td>
-                                        <td>66</td>
-                                        <td>90</td>
-                                        <td>.423</td>
-                                        <td>36.0</td>
+                                        <td>Rockies</td>
+                                        <td>67</td>
+                                        <td>89</td>
+                                        <td>.429</td>
+                                        <td>33.0</td>
                                     </tr>
-                        </table>
+                            </table>
 
+                            <h3 id="al_label">American League</h3>
+                            <table class="standings_table" id="AL_Central">
+                                <tr>
+                                    <th>AL Central</th>
+                                    <th>Wins</th>
+                                    <th>Losses</th>
+                                    <th>Win %</th>
+                                    <th>Games Back</th>
+                                </tr>
+                                <tr>
+                                    <td>Twins</td>
+                                    <td>97</td>
+                                    <td>60</td>
+                                    <td>.618</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>Indians</td>
+                                    <td>92</td>
+                                    <td>64</td>
+                                    <td>.590</td>
+                                    <td>4.5</td>
+                                </tr>
+                                <tr>
+                                    <td>White Sox</td>
+                                    <td>68</td>
+                                    <td>87</td>
+                                    <td>.439</td>
+                                    <td>28.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Royals</td>
+                                    <td>57</td>
+                                    <td>100</td>
+                                    <td>.363</td>
+                                    <td>40.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Tigers</td>
+                                    <td>46</td>
+                                    <td>110</td>
+                                    <td>.295</td>
+                                    <td>50.5</td>
+                                </tr>
+                            </table>
+                            <table class="standings_table" id="AL_East">
+                                    <tr>
+                                        <th>AL East</th>
+                                        <th>Wins</th>
+                                        <th>Losses</th>
+                                        <th>Win %</th>
+                                        <th>Games Back</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Yankees</td>
+                                        <td>102</td>
+                                        <td>56</td>
+                                        <td>.646</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rays</td>
+                                        <td>94</td>
+                                        <td>64</td>
+                                        <td>.595</td>
+                                        <td>8.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Red Sox</td>
+                                        <td>81</td>
+                                        <td>75</td>
+                                        <td>.519</td>
+                                        <td>20.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Blue Jays</td>
+                                        <td>64</td>
+                                        <td>94</td>
+                                        <td>.405</td>
+                                        <td>38.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Orioles</td>
+                                        <td>52</td>
+                                        <td>106</td>
+                                        <td>.329</td>
+                                        <td>50.0</td>
+                                    </tr>
+                            </table>
+                            <table class="standings_table" id="AL_West">
+                                        <tr>
+                                            <th>AL West</th>
+                                            <th>Wins</th>
+                                            <th>Losses</th>
+                                            <th>Win %</th>
+                                            <th>Games Back</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Astros</td>
+                                            <td>102</td>
+                                            <td>54</td>
+                                            <td>.654</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Athletics</td>
+                                            <td>94</td>
+                                            <td>62</td>
+                                            <td>.603</td>
+                                            <td>8.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rangers</td>
+                                            <td>75</td>
+                                            <td>81</td>
+                                            <td>.481</td>
+                                            <td>27.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Angels</td>
+                                            <td>70</td>
+                                            <td>86</td>
+                                            <td>.449</td>
+                                            <td>32.0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mariners</td>
+                                            <td>66</td>
+                                            <td>90</td>
+                                            <td>.423</td>
+                                            <td>36.0</td>
+                                        </tr>
+                            </table>
+                        </div>
                     </div>                    
                 </article>
 
                 <article id="Schedule">
+                    <!--Schedule as of 9/24-->
+
                         <div class="article_header"><h2>Schedule</h2></div>
                         <div class="article_content">
 
-                            <table>
-
-                            </table>
-
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis placeat iure? Sapiente quibusdam vitae accusamus deleniti molestias, repellat at soluta aliquid esse dolore veniam corporis fuga est exercitationem expedita dolorum reprehenderit, hic, debitis iusto. Quo, laborum hic? Unde, in!
+                            <div class="cal" id="sept">
+                                <table>
+                                    <tr><td class="month" colspan="7"><h1>September 2019</h1></td></tr>
+                                    <tr>
+                                        <td class="day">
+                                            <p class="date">1</p>
+                                            <p class="game">vs <b>Reds</b><br>--- W(4-3)</p>
+                                            <p class="game">vs <b>Reds</b><br>--- L(3-5)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">2</p>
+                                            <p class="game">vs <b>Giants</b><br>--- W(3-1)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">3</p>
+                                            <p class="game">vs <b>Giants</b><br>--- W(1-0)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">4</p>
+                                            <p class="game">vs <b>Giants</b><br>--- L(8-9)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">5</p>
+                                            <p class="game">vs <b>Giants</b><br>--- W(10-0)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">6</p>
+                                            <p class="game">@ <b>Pirates</b><br>--- L(4-9)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">7</p>
+                                            <p class="game">@ <b>Pirates</b><br>--- W(10-1)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">
+                                            <p class="date">8</p>
+                                            <p class="game">@ <b>Pirates</b><br>--- W(2-0)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">9</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">10</p>
+                                            <p class="game">@ <b>Rockies</b><br>--- L(1-2)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">11</p>
+                                            <p class="game">@ <b>Rockies</b><br>--- L(1-2)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">12</p>
+                                            <p class="game">@ <b>Rockies</b><br>--- W(10-3)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">13</p>
+                                            <p class="game">vs <b>Brewers</b><br>--- W(10-0)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">14</p>
+                                            <p class="game">vs <b>Brewers</b><br>--- L(2-5)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">
+                                            <p class="date">15</p>
+                                            <p class="game">vs <b>Brewers</b><br>--- L(6-7)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">16</p>
+                                            <p class="game">vs <b>Nationals</b><br>--- W(4-2)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">17</p>
+                                            <p class="game">vs <b>Nationals</b><br>--- L(2-6)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">18</p>
+                                            <p class="game">vs <b>Nationals</b><br>--- W(5-1)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">19</p>
+                                            <p class="game">@ <b>Cubs</b><br>--- W(5-4)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">20</p>
+                                            <p class="game">@ <b>Cubs</b><br>--- W(2-1)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">21</p>
+                                            <p class="game">@ <b>Cubs</b><br>--- W(9-8)</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">
+                                            <p class="date">22</p>
+                                            <p class="game">@ <b>Cubs</b><br>--- W(3-2)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">23</p>
+                                            <p class="game">@ <b>D-backs</b><br>--- W(9-7)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">24</p>
+                                            <p class="game">@ <b>D-backs</b><br>--- L(2-3)</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">25</p>
+                                            <p class="game">@ <b>D-backs</b><br>--- 2:40pm</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">26</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">27</p>
+                                            <p class="game">vs <b>Cubs</b><br>--- 7:15pm</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">28</p>
+                                            <p class="game">vs <b>Cubs</b><br>--- 6:15pm</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day">
+                                            <p class="date">29</p>
+                                            <p class="game">vs <b>Cubs</b><br>--- 2:15pm</p>
+                                        </td>
+                                        <td class="day">
+                                            <p class="date">30</p>
+                                        </td>
+                                        <td class="empty_date"> </td>
+                                        <td class="empty_date"> </td>
+                                        <td class="empty_date"> </td>
+                                        <td class="empty_date"> </td>
+                                        <td class="empty_date"> </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        
                         </div>
                 </article>
 
@@ -757,10 +894,26 @@
                     </div>
                 </article>
 
+                <article id="Newsletter">
+                    <div class="article_header"><h2>Newsletter</h2></div>
+                    <div class="article_content">
+                        <p id="news_text">Want even more Cardinals info? Stay up to date with the latest team news by subscribing to our newsletter.</p>
+                        <form id="news_form" action="" onsubmit="alert('Thanks for Subscribing!'); return false;">
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" required placeholder="johndoe@gmail.com"> <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </article>
+
             </main>
         </div>
         <footer>
-            <!--add footer-->
+            <div id="foot_blue"> </div>
+            <div id="foot_content">
+                <p>Fan Site Created By: J. Chrisler</p>
+                <p>Visit The Official Site: <a href="https://www.mlb.com/cardinals"><img id="official_site" src="resource/cards_official.svg" alt="Cardinals.com"></a></p>
+                
+            </div>
         </footer>
     </body>
 </html>
