@@ -226,6 +226,7 @@ article {
     height: 160px;
     padding-left: 0px;
     margin: 15px;
+    vertical-align: top;
 }
 
 .depth_table_item {
