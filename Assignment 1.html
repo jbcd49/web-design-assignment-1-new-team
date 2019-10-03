@@ -5,20 +5,39 @@
     <title> St. Louis Blues 2019 Playoff Stats</title>
 </head>
 
+<!--blues colors: blue rgb(0, 47, 135) yellow rgb(252, 181, 20) navy rgb(4, 30, 66) white rgb(255, 255, 255)-->
 
+<body style="margin: 0px;">
+    <header style="height: 100; padding: 1px; background-color: rgb(0,47,135); border-bottom: solid rgb(252,181,20) 5px;">
+            <h1 style="text-align: center; color: rgb(252,181,20);"> St. Louis Blues 2019
+                    Playoff Stats
+            </h1>
+    </header>
 
-<body>
-    <nav>
-        <a href="index.html">Cardinals</a>
-        <a href="James.html">Dortmund</a>
+    <nav style="background-color: lightgray; border-bottom: rgb(252,181,20) solid 5px; padding: 1px; overflow: auto;">
+        <!--internal nav here-->
+        <a href="#scores">
+            <div style="float: left; color: rgb(0,47,135); padding-left: 5px;"><h4 style="margin: 5px">Scores</h4></div>
+        </a> 
+        <a href="#stats">
+            <div style="float: left; color: rgb(0,47,135);"><h4 style="margin: 5px">Stats</h4></div>
+        </a>
+        <a href="#mvp">
+            <div style="float: left; color: rgb(0,47,135);"><h4 style="margin: 5px">MVP</h4></div>
+        </a>
+
+        <!--external nav here-->
+        <a href="index.html">
+            <div style="float: right; color: rgb(0,47,135); padding-right: 5px;"><h4 style="margin: 5px">Cardinals</h4></div>
+        </a> 
+        <a href="James.html">
+            <div style="float: right; color: rgb(0,47,135);"><h4 style="margin: 5px">Dortmund</h4></div>
+        </a>
     </nav>
-    <section>
 
-
-        <h1 style="text-align: center; background-color: blue; border: solid gold; color: gold"> St. Louis Blues 2019
-            Playoff Stats
-        </h1>
+    <section id="scores" style="margin: 10px;">
         <img src="resource/jets.jpg" style="float:right">
+        <h2>Game Scores:</h2>
         <h3> Round 1 vs. Winnipeg Jets</h3>
 
         <ul>
@@ -77,15 +96,15 @@
                 </ol>
         </ul>
     </section>
-    <hr>
-    <section>
+    <hr style="color: rgb(0,47,135)">
+    <section id="stats" style="margin: 10px;">
         <img src="resource/Blues Logo.png" style="float: right">
-        <h2> Player Stats</h2>
+        <h2> Player Stats:</h2>
         <style>
             table,
             th,
             td {
-                border: 1px solid blue;
+                border: 1px solid rgb(0,47,135);
                 border-collapse: collapse;
             }
 
@@ -336,11 +355,17 @@
         </table>
 
     </section>
-    <br>
-    <br>
-    <br>
-    <footer
-        style=" position: fixed; left:0; bottom:0; width:100%; text-align: center; background-color: blue; color: gold">
+    <hr style="color: rgb(0,47,135)">
+    <section id="mvp" style="text-align: center; margin-bottom: 75px;">
+        <p>Help us choose this season's most valuable player! Enter your choice for this seasons MVP!</p>
+        <form action="" onsubmit="alert('Thanks, Your vote has been counted!'); return false;">
+            <label for="choice">Player Name:</label>
+            <input type="text" required placeholder="John Doe">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer style="position: fixed; bottom:0; width:100%; text-align: center; background-color: rgb(0,47,135); color: rgb(252,181,20); border-top: solid rgb(252,181,20) 5px;">
         <p>Page put together by: Alex Woehler</p>
     </footer>
 </body>
