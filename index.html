@@ -42,8 +42,8 @@
                     <!--Standings as of 9/24-->
                     <div class="article_header"><h2>Standings</h2></div>
                     <div class="article_content">
-                        <div id="charts">
-                            <h3 id="nl_label">National League</h3>
+                        <div class="standing_charts">
+                            <h3>National League</h3>
                             <table class="standings_table" id="NL_Central">
                                 <tr>
                                     <th>NL Central</th>
@@ -53,7 +53,7 @@
                                     <th>Games Back</th>
                                 </tr>
                                 <tr>
-                                    <td>Cardinals</td>
+                                    <td class="highlight">Cardinals</td>
                                     <td>90</td>
                                     <td>67</td>
                                     <td>.573</td>
@@ -177,7 +177,7 @@
                                     </tr>
                             </table>
 
-                            <h3 id="al_label">American League</h3>
+                            <h3>American League</h3>
                             <table class="standings_table" id="AL_Central">
                                 <tr>
                                     <th>AL Central</th>
@@ -465,432 +465,434 @@
                 <article id="Depth Chart">
                     <div class="article_header"><h2>Depth Chart</h2></div>
                     <div class="article_content">
-                        <ul class="depth_list">
-                            <li>Catcher
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Yadier Molina</td>
-                                                <td class="depth_item_number">#4</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Matt Wieters</td>
-                                                <td class="depth_item_number">#32</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Andrew Knizner</td>
-                                                <td class="depth_item_number">#7</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Joe Hudson</td>
-                                                <td class="depth_item_number">#68</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>First Base
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Paul Goldschmidt</td>
-                                                <td class="depth_item_number">#46</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Rangel Ravelo</td>
-                                                <td class="depth_item_number">#47</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Matt Carpenter</td>
-                                                <td class="depth_item_number">#13</td>
-                                            </tr>
-                                        </table>
-                                    </li>    
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Second Base
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Kolten Wong</td>
-                                                <td class="depth_item_number">#16</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Tommy Edman</td>
-                                                <td class="depth_item_number">#19</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Edmundo Sosa</td>
-                                                <td class="depth_item_number">#63</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Third Base
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Tommy Edman</td>
-                                                <td class="depth_item_number">#19</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Matt Carpenter</td>
-                                                <td class="depth_item_number">#13</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Yairo Munoz</td>
-                                                <td class="depth_item_number">#34</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Edmundo Sosa</td>
-                                                <td class="depth_item_number">#63</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Short Stop
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Paul DeJong</td>
-                                                <td class="depth_item_number">#12</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Tommy Edman</td>
-                                                <td class="depth_item_number">#19</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Yairo Munoz</td>
-                                                <td class="depth_item_number">#34</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Left Field
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Marcell Ozuna</td>
-                                                <td class="depth_item_number">#23</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Tyler O'Neill</td>
-                                                <td class="depth_item_number">#41</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Jose Martinez</td>
-                                                <td class="depth_item_number">#38</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Yairo Munoz</td>
-                                                <td class="depth_item_number">#34</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Center Field
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Harrison Bader</td>
-                                                <td class="depth_item_number">#48</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Dexter Fowler</td>
-                                                <td class="depth_item_number">#25</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Randy Arozarena</td>
-                                                <td class="depth_item_number">#66</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Right Field
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Dexter Fowler</td>
-                                                <td class="depth_item_number">#25</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Jose Martinez</td>
-                                                <td class="depth_item_number">#38</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Tommy Edman</td>
-                                                <td class="depth_item_number">#19</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Rangel Ravelo</td>
-                                                <td class="depth_item_number">#47</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Pitcher (Rotation)
-                                <ol>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Miles Mikolas</td>
-                                                <td class="depth_item_number">#39</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Jack Flaherty</td>
-                                                <td class="depth_item_number">#22</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Adam Wainwright</td>
-                                                <td class="depth_item_number">#50</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Dakota Hudson</td>
-                                                <td class="depth_item_number">#43</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Michael Wacha</td>
-                                                <td class="depth_item_number">#52</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ol>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Pitcher (Bullpen)
-                                <ul>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Carlos Martinez</td>
-                                                <td class="depth_item_number">#18</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Andrew Miller</td>
-                                                <td class="depth_item_number">#21</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">John Gant</td>
-                                                <td class="depth_item_number">#53</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Giovanny Gallegos</td>
-                                                <td class="depth_item_number">#65</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">John Brebbia</td>
-                                                <td class="depth_item_number">#60</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Tyler Webb</td>
-                                                <td class="depth_item_number">#30</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="depth_list">
-                            <li>Pitcher (Bullpen ctd.)
-                                <ul>
-                                    <li>
-                                        <table class="depth_table_item">
-                                            <tr>
-                                                <td class="depth_item_name">Ryan Helsley</td>
-                                                <td class="depth_item_number">#56</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Dominic Leone</td>
-                                                <td class="depth_item_number">#55</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Genesis Cabrera</td>
-                                                <td class="depth_item_number">#61</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Junior Fernandez</td>
-                                                <td class="depth_item_number">#44</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Daniel Leon</td>
-                                                <td class="depth_item_number">#62</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                    <li>
-                                        <table>
-                                            <tr>
-                                                <td class="depth_item_name">Mike Mayers</td>
-                                                <td class="depth_item_number">#59</td>
-                                            </tr>
-                                        </table>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <div class="depth_charts">
+                            <ul class="depth_list">
+                                <li>Catcher
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Yadier Molina</td>
+                                                    <td class="depth_item_number">#4</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Matt Wieters</td>
+                                                    <td class="depth_item_number">#32</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Andrew Knizner</td>
+                                                    <td class="depth_item_number">#7</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Joe Hudson</td>
+                                                    <td class="depth_item_number">#68</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>First Base
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Paul Goldschmidt</td>
+                                                    <td class="depth_item_number">#46</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Rangel Ravelo</td>
+                                                    <td class="depth_item_number">#47</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Matt Carpenter</td>
+                                                    <td class="depth_item_number">#13</td>
+                                                </tr>
+                                            </table>
+                                        </li>    
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Second Base
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Kolten Wong</td>
+                                                    <td class="depth_item_number">#16</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Tommy Edman</td>
+                                                    <td class="depth_item_number">#19</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Edmundo Sosa</td>
+                                                    <td class="depth_item_number">#63</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Third Base
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Tommy Edman</td>
+                                                    <td class="depth_item_number">#19</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Matt Carpenter</td>
+                                                    <td class="depth_item_number">#13</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Yairo Munoz</td>
+                                                    <td class="depth_item_number">#34</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Edmundo Sosa</td>
+                                                    <td class="depth_item_number">#63</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Short Stop
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Paul DeJong</td>
+                                                    <td class="depth_item_number">#12</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Tommy Edman</td>
+                                                    <td class="depth_item_number">#19</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Yairo Munoz</td>
+                                                    <td class="depth_item_number">#34</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Left Field
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Marcell Ozuna</td>
+                                                    <td class="depth_item_number">#23</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Tyler O'Neill</td>
+                                                    <td class="depth_item_number">#41</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Jose Martinez</td>
+                                                    <td class="depth_item_number">#38</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Yairo Munoz</td>
+                                                    <td class="depth_item_number">#34</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Center Field
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Harrison Bader</td>
+                                                    <td class="depth_item_number">#48</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Dexter Fowler</td>
+                                                    <td class="depth_item_number">#25</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Randy Arozarena</td>
+                                                    <td class="depth_item_number">#66</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Right Field
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Dexter Fowler</td>
+                                                    <td class="depth_item_number">#25</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Jose Martinez</td>
+                                                    <td class="depth_item_number">#38</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Tommy Edman</td>
+                                                    <td class="depth_item_number">#19</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Rangel Ravelo</td>
+                                                    <td class="depth_item_number">#47</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Pitcher (Rotation)
+                                    <ol>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Miles Mikolas</td>
+                                                    <td class="depth_item_number">#39</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Jack Flaherty</td>
+                                                    <td class="depth_item_number">#22</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Adam Wainwright</td>
+                                                    <td class="depth_item_number">#50</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Dakota Hudson</td>
+                                                    <td class="depth_item_number">#43</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Michael Wacha</td>
+                                                    <td class="depth_item_number">#52</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Pitcher (Bullpen)
+                                    <ul>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Carlos Martinez</td>
+                                                    <td class="depth_item_number">#18</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Andrew Miller</td>
+                                                    <td class="depth_item_number">#21</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">John Gant</td>
+                                                    <td class="depth_item_number">#53</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Giovanny Gallegos</td>
+                                                    <td class="depth_item_number">#65</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">John Brebbia</td>
+                                                    <td class="depth_item_number">#60</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Tyler Webb</td>
+                                                    <td class="depth_item_number">#30</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="depth_list">
+                                <li>Pitcher (Bullpen ctd.)
+                                    <ul>
+                                        <li>
+                                            <table class="depth_table_item">
+                                                <tr>
+                                                    <td class="depth_item_name">Ryan Helsley</td>
+                                                    <td class="depth_item_number">#56</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Dominic Leone</td>
+                                                    <td class="depth_item_number">#55</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Genesis Cabrera</td>
+                                                    <td class="depth_item_number">#61</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Junior Fernandez</td>
+                                                    <td class="depth_item_number">#44</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Daniel Leon</td>
+                                                    <td class="depth_item_number">#62</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                        <li>
+                                            <table>
+                                                <tr>
+                                                    <td class="depth_item_name">Mike Mayers</td>
+                                                    <td class="depth_item_number">#59</td>
+                                                </tr>
+                                            </table>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </article>
 
@@ -912,7 +914,10 @@
             <div id="foot_content">
                 <p>Fan Site Created By: J. Chrisler</p>
                 <p>Visit The Official Site: <a href="https://www.mlb.com/cardinals"><img id="official_site" src="resource/cards_official.svg" alt="Cardinals.com"></a></p>
-                
+                <!--
+                    Image Source: mlb.com
+                    https://content.mlb.com/documents/1/1/6/264276116/cardinals_dot_com_logo.svg
+                -->
             </div>
         </footer>
     </body>

@@ -114,9 +114,13 @@ article {
     color: black;
 }
 
-#charts {
+.standing_charts {
     margin: auto;
     width: 80%;
+}
+
+.highlight {
+    color: rgb(196, 30, 58);
 }
 
 .standings_table tr:nth-child(odd) {
@@ -131,33 +135,25 @@ article {
 .standings_table {
     border-collapse: collapse;
     padding: 10px;
-    margin: 15px;
-    float: left;
+    margin-bottom: 15px;
+    width: 100%;
     text-align: center;
+    border: solid black;
 }
 
 .standings_table th {
-    width: 100px;
+    width: 20%;
     height: 25px;
 }
 
 .standings_table td {
-    width: 100px;
+    width: 20%;
     height: 20px;
-}
-
-#nl_label {
-    margin: 10px;
-}
-
-#al_label {
-    margin: 10px;
-    clear: both;
 }
 
 .game {
     padding-left: 3px;
-    font-size: smaller;
+    text-shadow: 2px 2px 2px white;
 }
 
 .cal table {
@@ -198,9 +194,10 @@ article {
 
 .cal .month {
     text-align: center;
-    background-color: rgba(196,30,58,.90);
+    background-color: rgb(196,30,58);
     color: white;
     height: 50px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .cal .date {
@@ -212,9 +209,19 @@ article {
     border-collapse: collapse;
 }
 
+.depth_charts {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
 .depth_list {
-    float: left;
+    /*    float: left;    */
+    display: inline-block;
+    text-align: left;
     height: 160px;
+    padding-left: 0px;
+    margin: 15px;
 }
 
 .depth_table_item {
